@@ -10,7 +10,18 @@
   Tournament Organizer uses the Angular framework for organizing the front-end of our application, which was written in Typescript, HTML, and CSS. A RESTful API was implemented using the ASP.NET Core. This API acts as an indirection layer between our front-end service and our Microsoft SQL Server database. Stored procedures were used in order to prevent SQL injection attacks.  
   
 ## How To Run Tournament Organizer
-First, there is some prerequisite software required. Primarily, you will need NodeJS and Node Package Manager (NPM) installed. Second, you will need Microsoft SQL Server. Thirdly, though not strictly required, you should have Visual Studio 2022 installed. Next, you will need to fork this repository, and clone that repository to your local computer. Then, you will need to use NPM to install Bulma by typing:
-
+First, there is some prerequisite software required. Primarily, you will need NodeJS and Node Package Manager (NPM) installed. Second, you will need Microsoft SQL Server Management Studio. Thirdly, though not strictly required, you should have Visual Studio 2022 installed. Next, you will need to fork this repository, and clone that repository to your local computer. Then, you will need to use NPM to install Bulma by typing:
+```
+npm install --save bulma
+```
+At this point, the front-end can be run by typing:
+```
+ng serve
+```
+By default, the node app will run on localhost:4200  
+Next, use the .sql script found in the repository to create the database, schemas, and stored procedures. After that, launch Microsoft SQL Server Management Studio and connect to the database.  
+Then, open the TournamentAPI.sln file with Visual Studio 2022. Open the AppSettings.json file, and configure the DevConnection string to target your SQL Server. Run the solution. This will run the API, which is defaulted to localhost:5131.  
+Once all of these components are running, you are free to interact with the application.  
+##Tournament Organizer in Action
   For a more detailed breakdown of functionality, design, and implementation, as well as a short user guide, please see the "Project Report.pdf" file in the repository.
 
