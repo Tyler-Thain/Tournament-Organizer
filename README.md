@@ -30,12 +30,38 @@ Once all of these components are running, you are free to interact with the appl
 ![Landing Page](/Images/Landing_Page.png "Landing Page")  
 This is the landing page for the application. From here, users can register or login.
 #### Tournament Organizer Example
-##### Tournament Organizer Register
+##### Tournament Organizer Registration
 ![Tournament Organizer Registration Page](/Images/TO_Register.png "Tournament Organizer Registration Page")  
 After clicking "Tournament Organizer Registration, the user is directed to this page. Here, they can create a username, password, and provide their first and last names.
 ##### Tournament Organizer Login
 ![Tournament Organizer Login Page](/Images/TO_Login.png "Tournament Organizer Login Page")  
 After registering, a Tournament Organizer can login by clicking "Tournament Organizer Login", which will direct them to the page shown above. From there, they can provide their username and password to login in. This will direct them to the Tournament Organizer Landing Page.
 ##### Tournament Organizer Landing Page
+![Tournament Organizer Landing Page](/Images/TO_Landing.png "Tournament Organizer Landing Page")  
+Here, the Tournament Organizer is presented with a list off all of the functionality they have access to. By clicking any of the options, they will be directed to a subpage, where they can Add, Update, or Delete tuples from the database related to that header. In this example, the Tournament Organizer wishes to add a Tournament, and so clicks the "Tournament" button.  
+##### Tournament Organizer - Tournament Page
+![Tournament Organizer Tournament Page](/Images/TO_Tournament.png "Tournament Organizer Tournament Page")  
+Here, the Tournament Organizer can choose to Add, Delete, or Update a Tournament. We will add a Tournament.
+##### Tournament Organizer - Add Tournament Page
+![Tournament Organizer Add Tournament Page](/Images/TO_Add_Tournament.png "Tournament Organizer Add Tournament page")
+The Tournament Organizer then creates an ID number for the tournament, names the tournament, indicates the sport that will be played, adds start and end dates, supplies their username, which is accessed via a dropdown menu, and the ID of the Athletic Park the tournament will be hosted at, again via a dropdown menu.
+##### Tournament Organizer - View Tournaments Page
+![Tournament Organizer View Tournament Page](/Images/TO_View_Tournament.png "Tournament Organzier View Tournament Page")
+The Tournament Organizer can view their active Tournaments as well. All other functionality the Tournament Organizer has access to is used in a similar manner.
+#### Player Example
+##### Player Registration
+![Player Registration Page](/Images/P_Register.png "Player Registration")
+The Player provides a username, password, first and last name, age, jersey number, team name, and position. They are then registered to use the application, and assigned to their specified team.
+##### Player Login
+![Player Login Page](/Images/P_Login.png "Player Login Page")
+The Player then provides their username and password, and is logged in and taken to the Player Landing Page.
+##### Player Landing Page
+![Player Landing Page](/Images/P_Landing_Page.png "Player Landing Page")
+Once at the landing page, the Player has access to a subset of the functionality Tournament Organizers do. In our example, the Player wishes to see the Teams registered in the Tournament they are playing in.
+##### Player View Teams Page
+![Player View Teams Page](/Images/P_View_Teams.png "Player View Teams Page")
+After providing the ID of the Tournament they are interested via a dropdown, the Player is shown all Teams registered in that Tournament. All of other functionality available to the Player is used and accessed in a similar manner.
+
+## More Information
   For a more detailed breakdown of functionality, design, and implementation, as well as a short user guide, please see the "Project Report.pdf" file in the repository.
 
