@@ -1,2 +1,2 @@
 # Tournament-Organizer
-A full-stack web application built in Angular and .NET for creating, organizing, and managing sports tournaments.
+Tournament Organizer is a web-based application that provides an easy-to-use platform for creating and organizing sports tournaments. Many amateur sports lack organizations or resources to create, organize, and manage tournaments. Our app aims to make it easier for amateur sports groups to host tournaments, and for participants in those tournaments to have a central hub which contains all relevant information.
