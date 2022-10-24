@@ -19,9 +19,12 @@ At this point, the front-end can be run by typing:
 ng serve
 ```
 By default, the node app will run on localhost:4200  
+
 Next, use the .sql script found in the repository to create the database, schemas, and stored procedures. After that, launch Microsoft SQL Server Management Studio and connect to the database.  
+
 Then, open the TournamentAPI.sln file with Visual Studio 2022. Open the AppSettings.json file, and configure the DevConnection string to target your SQL Server. Run the solution. This will run the API, which is defaulted to localhost:5131.  
+
 Once all of these components are running, you are free to interact with the application.  
-##Tournament Organizer in Action
+## Tournament Organizer in Action
   For a more detailed breakdown of functionality, design, and implementation, as well as a short user guide, please see the "Project Report.pdf" file in the repository.
 
