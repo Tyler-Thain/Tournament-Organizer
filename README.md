@@ -27,6 +27,15 @@ Then, open the TournamentAPI.sln file with Visual Studio 2022. Open the AppSetti
 Once all of these components are running, you are free to interact with the application.  
 ## Tournament Organizer in Action
 ### Landing Page
-![Landing Page](/Images/Landing_Page.png "Landing Page")
+![Landing Page](/Images/Landing_Page.png "Landing Page")  
+This is the landing page for the application. From here, users can register or login.
+#### Tournament Organizer Example
+##### Tournament Organizer Register
+![Tournament Organizer Registration Page](/Images/TO_Register.png "Tournament Organizer Registration Page")  
+After clicking "Tournament Organizer Registration, the user is directed to this page. Here, they can create a username, password, and provide their first and last names.
+##### Tournament Organizer Login
+![Tournament Organizer Login Page](/Images/TO_Login.png "Tournament Organizer Login Page")  
+After registering, a Tournament Organizer can login by clicking "Tournament Organizer Login", which will direct them to the page shown above. From there, they can provide their username and password to login in. This will direct them to the Tournament Organizer Landing Page.
+##### Tournament Organizer Landing Page
   For a more detailed breakdown of functionality, design, and implementation, as well as a short user guide, please see the "Project Report.pdf" file in the repository.
 
