@@ -27,6 +27,6 @@ Then, open the TournamentAPI.sln file with Visual Studio 2022. Open the AppSetti
 Once all of these components are running, you are free to interact with the application.  
 ## Tournament Organizer in Action
 ### Landing Page
-![Landing Page](/images/Landing Page.png "Landing Page")
+![Landing Page](/Images/Landing_Page.png "Landing Page")
   For a more detailed breakdown of functionality, design, and implementation, as well as a short user guide, please see the "Project Report.pdf" file in the repository.
 
