@@ -56,7 +56,7 @@ The Player provides a username, password, first and last name, age, jersey numbe
 ![Player Login Page](/Images/P_Login.png "Player Login Page")
 The Player then provides their username and password, and is logged in and taken to the Player Landing Page.
 ##### Player Landing Page
-![Player Landing Page](/Images/P_Landing_Page.png "Player Landing Page")
+![Player Landing Page](/Images/P_Landing.png "Player Landing Page")
 Once at the landing page, the Player has access to a subset of the functionality Tournament Organizers do. In our example, the Player wishes to see the Teams registered in the Tournament they are playing in.
 ##### Player View Teams Page
 ![Player View Teams Page](/Images/P_View_Teams.png "Player View Teams Page")
