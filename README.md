@@ -10,7 +10,7 @@
   Tournament Organizer uses the Angular framework for organizing the front-end of our application, which was written in Typescript, HTML, and CSS. A RESTful API was implemented using the ASP.NET Core. This API acts as an indirection layer between our front-end service and our Microsoft SQL Server database. Stored procedures were used in order to prevent SQL injection attacks.  
   
 ## How To Run Tournament Organizer
-
+First, there is some prerequisite software required. Primarily, you will need NodeJS and Node Package Manager (NPM) installed. Second, you will need Microsoft SQL Server. Thirdly, though not strictly required, you should have Visual Studio 2022 installed. Next, you will need to fork this repository, and clone that repository to your local computer. Then, you will need to use NPM to install Bulma by typing:
 
   For a more detailed breakdown of functionality, design, and implementation, as well as a short user guide, please see the "Project Report.pdf" file in the repository.
 
